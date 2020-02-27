@@ -1,0 +1,369 @@
+/*page top.php*/
+
+.header {
+    z-index: 2;
+    background-color: #202020;
+    /*background: #B0798C;*/
+    padding: 0 10px 0 10%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.titre-header {
+    font-family: 'Raleway';
+    color: rgb(229, 232, 77);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.sous-titre-header {
+    font-family: 'Raleway';
+    color: #ffffff;
+    /*color: #d4d4d4;*/
+    font-size: 20px;
+    margin: 20px;
+}
+
+/*page principale*/
+
+body {
+    background-color: #FF9EE8
+    /*background: #FADCE6;*/
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-contenu {
+    display: flex;
+}
+
+ /*partie menu*/
+
+.photo {
+    border-radius: 50%;
+    border-left: solid;
+    width: 65%;
+    margin: 10px 10px 0 30px;
+}
+
+.menu {
+    z-index: 3;
+    font-family: Rajdhani;
+    font-size: 25px;
+    position: fixed;
+    width: 17%;
+    height: 100%;
+    background-color: rgb(255, 0, 115);
+    /*background-color: #F5588F;*/
+    padding-left: 10px;
+}
+
+.logo-menu {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.iconeMenu {
+    color: #000000;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.page {
+    color: #000000;
+}
+
+
+.block {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+      color: #ffffff;
+      text-decoration: none;
+}
+
+.coordonnees {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*partie contenu*/
+
+.citation, .profil, .parcours, .competences, .experiences {
+    color: #000000;
+    height: 750px;
+}
+
+.citation {
+    padding-top: 20%;
+    margin: 0 300px 0 300px;
+    font-size: 30px;
+}
+
+.logo-chess {
+    padding-left: 300px;
+}
+
+.logo-opportunity {
+    padding-right: 300px;
+}
+
+.contact {
+    color: #000000;
+    height: 1000px;
+}
+
+.contenu {
+    z-index: 1;
+    color: #000000;
+    opacity: 60%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway';
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+}
+
+.paragraphes {
+    padding: 10px;
+}
+
+.texte-presentation {
+    font-size: 30px;
+    margin: 20px;
+    padding: 0 100px;
+    display: inline-table;
+}
+
+.logo-presentation {
+    padding: 0 10px;
+}
+
+.texte-parcours {
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    padding-top: 140px;
+    display: inline-table;
+}
+
+.paragraphes-parcours-gauche {
+    margin-left: 420px;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+}
+
+.paragraphes-parcours-droite {
+    justify-content: flex-end;
+    margin-right: 420px;
+    padding: 10px;
+    display: flex;
+    text-align: right;
+}
+
+.img-parcours-gauche {
+    margin-right: 20px;
+    padding: 2px 15px;
+}
+
+.img-parcours-droite {
+    margin-left: 20px;
+    padding: 2px 15px;
+}
+
+.diplome {
+font-size: 25px;
+font-weight: bold;
+}
+
+.lieu {
+font-size: medium;
+}
+
+.annee {
+font-size: 15px;
+font-weight: bold;
+}
+
+.titre {
+    margin-top: 180px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.texte-competences {
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    padding: 160px 60px 0 100px;
+    display: flex;
+}
+
+.logo-competences {
+    width: 25%;
+}
+
+.img-competences {
+    width: 440px;
+    height: 400px;
+    padding: 80px 0 0 70px;
+}
+
+.paragraphe-competence {
+    display: flex;
+    padding: 15px 0;
+}
+
+.competence {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.texte-experiences {
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    padding: 100px 100px 0 100px;
+    display: inline-table;
+}
+
+.titre-experience {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.paragraphes-experiences {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 10px 10px 10px;
+    align-items: center;
+}
+
+.logo-peekin {
+    width: 100px;
+    padding-top: 10px;
+}
+
+.logo-experience {
+    width: 50px;
+}
+
+/* formulaire */
+.texte-contact {
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    padding: 0 100px 0 100px;
+    display: inline-table;
+}
+
+form {
+    padding: 160px 250px 0 250px;
+}
+
+.nom-prenom, .email-entreprise {
+    flex-direction: row;
+    display: flex;
+}
+
+.champs {
+    padding: 0 20px;
+}
+  
+button {
+	font-family: inherit;
+    font-size: inherit;
+    padding: 6px 10px;
+    margin-bottom: 60px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+input, textarea {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0 15px 0;
+	padding: 6px 10px;
+	box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+article.message {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-content: space-between;
+    background-color: #ffffff;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+/* fléches retour */
+.fleche-retour {
+    padding-right: 85px;
+}
+
+.retour-profil {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+
+.retour-parcours {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.retour-competences {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.retour-experiences {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.retour-messages {
+    text-align: right;
+    padding: 60px 50px 40px 0;
+}
+
+.lien-retour {
+    color: #000000;
+    text-decoration: none;
+}
