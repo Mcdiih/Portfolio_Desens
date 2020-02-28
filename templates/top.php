@@ -17,6 +17,6 @@
     <div class="header">
         <div class="titre-header">Portfolio d'une developpeuse en devenir</div>
         <div class="sous-titre-header">Camille Desens, jeune femme de 27 ans.
-            <br>En reconversion professionnelle dans le monde de l'informatique et du developpement.
+            <br>En reconversion professionnelle dans le monde de l'informatique et du développement.
         </div>
 </div>
