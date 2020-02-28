@@ -37,6 +37,7 @@
         <div class="block">
             <a href="#experiences" style="display: flex; flex-direction: row;">
                 <div style="display: flex;">
+                    <img class="logo-menu" src="../images/experiences.png" alt="">
                     Expériences
                 </div>
             </a>
@@ -44,6 +45,7 @@
         <div class="block">
             <a href="#contact" style="display: flex; flex-direction: row;">
                 <div style="display: flex;">
+                    <img class="logo-menu" src="../images/contact.png" alt="">
                     Contact
                 </div>
             </a>
@@ -59,13 +61,15 @@
 <!-- page d'accueil citation -->
 <div class="contenu">
         <div id="citation" class="citation">
-            <img class="logo-chess" src="../images/chess.png" alt="">
+            <div style="display : flex; justify-content: center;">
+                <img class="logo-citation" src="../images/chess.png" alt="">
+                <img class="logo-citation" src="../images/opportunity.png" alt="">
+            </div>
             <h3>« Ne pensez pas à l'échec,
                 pensez aux opportunités que vous risquez de manquer
                 si vous n'essayez pas. »
             </h3>
             <h5>- Jack Canfield</h5>
-            <img class="logo-opportunity" src="../images/opportunity.png" alt="">
         </div>
         
 
@@ -162,7 +166,7 @@
 
         <div id="competences" class="competences">
             <div class="texte-competences">
-                <div>
+                <div style="display: flex;">
                     <div class="paragraphe-competence">
                         <div class="paragraphe-icone">
                             <img class="logo-competences" src="../images/logo-html.png" alt="">    
@@ -204,14 +208,15 @@
                         </div>
                     </div>
                 </div>
-                <img class="img-competences" src="../images/competences.png" alt="">
-                <!-- <div class="paragraphes-competences">
-                    <br>Travail en équipe
-                    <br>Autonomie, Organisation
-                    <br>Méthodologie et respect des délais
-                    <br>Capacité d’analyse
-                    <br>Communication, Gestion et Actualisation des réseaux sociaux
-                </div> -->
+
+                <div class="lien-bas">
+                    <a class="lien-bas-competences" href="#img-competences">
+                        <img src="../images/fleche-retour-bas.png" alt="">
+                    </a>
+                </div>
+
+                <img id="img-competences" class="img-competences" src="../images/competences.png" alt="">
+
             </div>
             <div class="retour-competences">
                 <a class="lien-retour" href="#citation">
@@ -400,7 +405,7 @@
 	            </form>
             </div>
 
-            <div class="voir-messages">
+            <div class="lien-bas">
                 <a class="lien-retour" href="#messages">
                     <div>voir les messages</div>
                     <img src="../images/fleche-retour-bas.png" alt="">

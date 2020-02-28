@@ -90,8 +90,8 @@ a {
 }
 
 a:hover {
-      color: #ffffff;
-      text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .coordonnees {
@@ -103,23 +103,23 @@ a:hover {
 
 /*partie contenu*/
 
-.citation, .profil, .parcours, .competences, .experiences {
+.citation, .profil, .parcours, .experiences {
     color: #000000;
     height: 750px;
 }
 
+.competences {
+    height: 1550px;
+}
+
 .citation {
-    padding-top: 20%;
+    padding-top: 15%;
     margin: 0 300px 0 300px;
     font-size: 30px;
 }
 
-.logo-chess {
-    padding-left: 300px;
-}
-
-.logo-opportunity {
-    padding-right: 300px;
+.logo-citation {
+    padding: 30px;
 }
 
 .contact {
@@ -210,23 +210,26 @@ font-weight: bold;
 .texte-competences {
     font-size: 20px;
     margin: 20px 20px 0 20px;
-    padding: 160px 60px 0 100px;
-    display: flex;
+    padding: 120px 60px 0 100px;
 }
 
 .logo-competences {
-    width: 25%;
+    width: 50%;
 }
 
 .img-competences {
-    width: 440px;
-    height: 400px;
-    padding: 80px 0 0 70px;
+    width: 600px;
+    padding: 160px 0 0 70px;
 }
 
 .paragraphe-competence {
     display: flex;
     padding: 15px 0;
+    flex-direction: column;
+}
+
+.paragraphe-icone {
+    padding: 40px 20px;
 }
 
 .competence {
@@ -271,7 +274,7 @@ font-weight: bold;
 }
 
 form {
-    padding: 160px 250px 0 250px;
+    padding: 140px 250px 0 250px;
 }
 
 .nom-prenom, .email-entreprise {
@@ -287,7 +290,6 @@ button {
 	font-family: inherit;
     font-size: inherit;
     padding: 6px 10px;
-    margin-bottom: 60px;
 }
 
 textarea {
@@ -313,12 +315,8 @@ article.message {
     border-radius: 5px;
 }
 
-.message {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    place-content: space-between;
-    background-color: #ffffff;
+h3 {
+    margin-bottom: 100px;
 }
 
 h4 {
@@ -360,7 +358,11 @@ h5 {
 
 .retour-messages {
     text-align: right;
-    padding: 60px 50px 40px 0;
+    padding: 50px 50px 50px 0;
+}
+
+.lien-bas {
+    padding: 60px 30px 40px 0;
 }
 
 .lien-retour {
